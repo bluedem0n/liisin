@@ -7,6 +7,7 @@
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="/assets/css/materialize.min.css" media="screen,projection" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" type="image/png" href="img/logo.png" />
@@ -16,6 +17,7 @@
 	<link rel="stylesheet" href="css/footer.css">
 	<title>Liisin</title>
 </head>
+
 <body>
 	<nav>
 		<div class="nav-wrapper hide-on-large-only">
@@ -36,50 +38,48 @@
 				<li><a href="#!">Ayuda</a></li>
 			</ul>
 		</div>
-		<div class="nav-wrapper hide-on-small-only">
-			<a class="brand-logo hide-on-med-and-down" href='index.html'><img class="logo" src="/assets/img/favicon.png"></a>
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="/under_construction/construction.html">Comprar</a></li>
-				<li><a href="/under_construction/construction.html">Ayuda</a></li>
-				<li> <a href="/under_construction/construction.html">Abrir cuenta</a> </li>
-				<li><a href="/under_construction/construction.html">Iniciar Sesión</a></li>
-			</ul>
+		<nav>
+			<div class="nav-wrapper hide-on-small-only">
+				<a class="brand-logo hide-on-med-and-down" href='index.html'><img class="logo" src="/assets/img/favicon.png"></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="/under_construction/construction.html" class="dropdown-button" href="#!" data-activates="dropdown1">Comprar<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="/under_construction/construction.html" class="dropdown-button" href="#!" data-activates="dropdown1">Negocios<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="/under_construction/construction.html" class="dropdown-button" href="#!" data-activates="dropdown1">Solicitar Pagos<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a class="btn-abrir waves-effect waves-light btn btn-navbar">Iniciar Sesión</a></li>
+					<li><a class="btn-inicio waves-effect waves-light btn btn-navbar">Abrir cuenta</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="nav-wrapper ">
+			<ul id="nav-mobile" class="right hide-on-med-and-down"> </ul>
 		</div>
 	</nav>
-	<div class="container">
-		<div class="title">
-			<h3 class="hide-on-small-only left-align"><b>Te espera un mundo de viajes inolvidables.</b></h3>
-			<h5 class="hide-on-med-and-down">Alojamientos, experiencias y lugares, todo en una sola aplicación.</h5>
-			<div class="button1 center hide-on-small-only"><span>Descubre las últimas novedades</span></div>
-			<h5 class="hide-on-med-and-up center-align"><b>Te espera un mundo de viajes inolvidables.</b></h5>
-			<p class="hide-on-med-and-up center-align">Descubre las última novedades</p>
-		</div>
-	</div>
+	<div class="linea"></div>
 	<div class="slider fullscreen">
 		<ul class="slides">
+			<li> <img src="/assets/img/hero-slider3.jpg">
+				<!-- random image -->
+				<div class="caption center-align">
+					<h3>En la organización de tu fiesta Liisin es tu aliado de bolsillo</h3>
+					<h5 class="light grey-text text-lighten-3">No lo dudes y contrátanos</h5> 
+					<a class="btn-home waves-effect waves-light btn">Abrir una cuenta gratis</a>
+				</div>
+			</li>
 			<li> <img src="/assets/img/hero-slider2.jpg">
 				<!-- random image -->
 				<div class="caption center-align">
-					<h3>This is our big Tagline!</h3>
-					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> </div>
-			</li>
-			<li><img src="/assets/img/hero-slider3.jpg">
-				<!-- random image -->
-				<div class="caption left-align">
-					<h3>Left Aligned Caption</h3>
-					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> </div>
-			</li>
-			<li> <img img src="/assets/img/hero-slider1.jpg">
-				<!-- random image -->
-				<div class="caption right-align">
-					<h3>Right Aligned Caption</h3>
-					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> </div>
+					<h3>No esperes más Liisin es la mejor opción!</h3>
+					<h5 class="light grey-text text-lighten-3">La mejor fiesta de XV solo con Liisin</h5>
+					<a class="btn-home waves-effect waves-light btn">Abrir una cuenta gratis</a>
+				</div>
 			</li>
 			<li> <img src="/assets/img/hero-slider4.jpg">
 				<!-- random image -->
 				<div class="caption center-align">
-					<h3>This is our big Tagline!</h3>
-					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> </div>
+					<h3>Liisin está llegando a México</h3>
+					<h5 class="light grey-text text-lighten-3">Espéralo...</h5> 
+					<a class="btn-home waves-effect waves-light btn">Abrir una cuenta gratis</a>
+				</div>
 			</li>
 		</ul>
 	</div>
