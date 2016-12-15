@@ -14,14 +14,6 @@ nav {
 	position: relative;
 }
 
-.logo {
-	margin-top: 0.4em;
-	display: inline-block;
-	width: 102px;
-	height: 50px;
-	margin-left: 2em;
-}
-
 .btn,
 .btn-large,
 .btn-flat {
@@ -64,4 +56,12 @@ nav .nav-wrapper {
 
 header {
 	padding-bottom: 4em;
+}
+
+.logo {
+    margin-top: -19px;
+    display: inline-block;
+    width: 102px;
+    height: 70px;
+    margin-left: 2em;
 }
